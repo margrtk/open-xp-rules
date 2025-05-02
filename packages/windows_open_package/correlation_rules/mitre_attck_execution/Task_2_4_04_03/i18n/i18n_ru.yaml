@@ -1,0 +1,4 @@
+Description: 'Подозрительное выполнение base64 в powershell'
+EventDescriptions:
+  - LocalizationId: 'corrname_Task_2_4_04_03'
+    EventDescription: ''
