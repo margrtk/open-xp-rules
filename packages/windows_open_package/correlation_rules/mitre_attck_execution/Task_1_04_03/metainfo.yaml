@@ -1,0 +1,29 @@
+ContentAutoName: Task_1_04_03
+ExpertContext:
+  Created: 25.04.2025
+  Updated: 25.04.2025
+  KnowledgeHolders:
+    - '04_03'
+  Usecases:
+    - Detection of lateral movement attempts
+    - Identification of process injection techniques
+    - Monitoring for suspicious administrative activities
+  Falsepositives:
+    - Legitimate system administration scripts
+    - Automated monitoring systems
+    - Software deployment tools
+  References:
+    - https://learn.microsoft.com/ru-ru/windows/win-32/wmisdk/wmic
+  Improvements:
+    - Add parent process analysis
+    - Add whitelist for trusted path
+    - Consider adding network connection checks
+  DataSources:
+    - Provider: Microsoft-Windows-Sysmon
+      EventID: []
+ObjectId: SEC-CR-133491412
+ContentRelations:
+  Implements:
+    ATTACK:
+      execution:
+        - T1047
