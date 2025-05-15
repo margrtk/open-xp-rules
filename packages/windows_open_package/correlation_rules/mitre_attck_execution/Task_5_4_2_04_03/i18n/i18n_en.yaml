@@ -1,0 +1,4 @@
+Description: 'Detecting actions related to the execution of a process POC.exe masquerading as legitimate'
+EventDescriptions:
+  - LocalizationId: 'corrname_Task_5_4_2_04_03'
+    EventDescription: 'Suspicious activity related to the execution of the process was detected POC.exe on the {event_src.host} node'

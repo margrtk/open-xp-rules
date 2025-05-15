@@ -1,0 +1,22 @@
+ContentAutoName: Task_5_4_2_04_03
+ExpertContext:
+  Created: 15.05.2025
+  Updated: 15.05.2025
+  KnowledgeHolders:
+    - '04_03'
+  Usecases: []
+  Falsepositives: []
+  References: []
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-System
+      EventID: []
+ObjectId: SEC-CR-821114163
+ContentRelations:
+  Implements:
+    ATTACK:
+      execution:
+        - T1059.001
+EventDescriptions:
+  - Criteria: correlation_name = "Task_5_4_2_04_03"
+    LocalizationId: corrname_Task_5_4_2_04_03

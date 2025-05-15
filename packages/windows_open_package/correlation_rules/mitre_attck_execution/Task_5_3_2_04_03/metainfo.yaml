@@ -1,0 +1,22 @@
+ContentAutoName: Task_5_3_2_04_03
+ExpertContext:
+  Created: 12.05.2025
+  Updated: 15.05.2025
+  KnowledgeHolders:
+    - '04_03'
+  Usecases: []
+  Falsepositives: []
+  References: []
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-System
+      EventID: []
+ObjectId: SEC-CR-141874610
+ContentRelations:
+  Implements:
+    ATTACK:
+      defense-evasion:
+        - T1112
+EventDescriptions:
+  - Criteria: correlation_name = "Task_5_3_2_04_03"
+    LocalizationId: corrname_Task_5_3_2_04_03
