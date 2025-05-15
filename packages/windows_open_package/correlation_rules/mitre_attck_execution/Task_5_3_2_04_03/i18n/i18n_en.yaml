@@ -1,0 +1,4 @@
+Description: 'Detecting activity related to registry modification'
+EventDescriptions:
+  - LocalizationId: 'corrname_Task_5_3_2_04_03'
+    EventDescription: 'Suspicious activity was detected related to registry changes on the {event_src.host} node'

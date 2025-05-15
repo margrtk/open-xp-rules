@@ -1,0 +1,4 @@
+Description: 'Getting access to LSASS'
+EventDescriptions:
+  - LocalizationId: 'corrname_Task_5_1_2_04_03'
+    EventDescription: 'An attempt to access lsass process data through a process {subject.process.name } on the {event_src.host} node'

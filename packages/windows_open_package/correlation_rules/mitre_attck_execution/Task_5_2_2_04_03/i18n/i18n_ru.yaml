@@ -1,0 +1,4 @@
+Description: 'Активность, связанная с атакой на TSSSP с использованием KEKEO'
+EventDescriptions:
+  - LocalizationId: 'corrname_Task_5_2_2_04_03'
+    EventDescription: 'Активность, связанная с атакой на TSSSP на узле {event_src.host}'
